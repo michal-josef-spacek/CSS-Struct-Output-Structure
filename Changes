@@ -1,5 +1,6 @@
 0.02
  - Fix abstract.
+ - Fix dependencies.
  - Fix test dependencies.
 
 0.01 2021-06-20T10:23:41+02:00

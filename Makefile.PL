@@ -17,7 +17,7 @@ license 'bsd';
 name 'CSS-Struct-Output-Structure';
 readme_from 'Structure.pm';
 recursive_author_tests('xt');
-requires 'CSS::Struct::Output' => 0.01;
+requires 'CSS::Struct::Output' => 0.05;
 requires 'Indent' => 0.01;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/CSS-Struct-Output-Structure/issues';

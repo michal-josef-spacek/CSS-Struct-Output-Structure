@@ -28,7 +28,7 @@ no_index:
     - t
     - xt
 requires:
-  CSS::Struct::Output: 0.01
+  CSS::Struct::Output: 0.05
   Indent: 0.01
   Readonly: 0
 resources:
