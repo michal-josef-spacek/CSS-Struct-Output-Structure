@@ -11,6 +11,7 @@ my $css = CSS::Struct::Output::Structure->new(
 );
 
 # Set structure.
+$css->put(['c', 'Comment']);
 $css->put(['a', 'charset', 'utf-8']);
 $css->put(['s', 'selector#id']);
 $css->put(['s', 'div div']);
@@ -23,6 +24,7 @@ $css->put(['e']);
 $css->flush;
 
 # Output:
+# ['c', 'comment']
 # ['a', 'charset', 'utf-8']
 # ['s', 'selector#id']
 # ['s', 'div div']
