@@ -1,5 +1,5 @@
 ---
-abstract: "Indent printing 'CSS::Struct' structure to CSS code."
+abstract: "Structure class for 'CSS::Struct' output."
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
