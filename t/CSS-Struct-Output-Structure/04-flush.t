@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 
-use English qw(-no_match_vars);
 use CSS::Struct::Output::Structure;
 use Test::More 'tests' => 6;
 use Test::NoWarnings;
