@@ -1,5 +1,6 @@
 0.03
  - Change reset to default which returns [].
+ - Update copyright years.
 
 0.02 2021-06-20T16:45:19+02:00
  - Fix abstract.
