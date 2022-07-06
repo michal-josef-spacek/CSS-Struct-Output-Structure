@@ -110,15 +110,6 @@ sub _put_structure {
 	return;
 }
 
-# Reset flush code.
-sub _reset_flush_code {
-	my $self = shift;
-
-	$self->{'flush_code'} = undef;
-
-	return;
-}
-
 1;
 
 __END__

@@ -11,7 +11,7 @@ my $obj = CSS::Struct::Output::Structure->new;
 my $ret_ar = $obj->flush;
 is_deeply(
 	$ret_ar,
-	undef,
+	[],
 	'Get output from flush().',
 );
 
@@ -39,4 +39,4 @@ is_deeply($ret_ar, [
 	['c', 'comment'],
 ], 'First get of flush with reset.');
 $ret_ar = $obj->flush;
-is_deeply($ret_ar, undef, 'Second get of flush with reset.');
+is_deeply($ret_ar, [], 'Second get of flush with reset.');
