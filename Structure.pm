@@ -6,7 +6,7 @@ use warnings;
 
 use Error::Pure qw(err);
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 sub flush {
 	my ($self, $reset_flag) = @_;
@@ -350,6 +350,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
