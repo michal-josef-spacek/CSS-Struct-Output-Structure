@@ -204,6 +204,8 @@ Returns undef.
 
 =head1 EXAMPLE1
 
+=for comment filename=create_struct_and_return.pl
+
  use strict;
  use warnings;
 
@@ -267,6 +269,8 @@ Returns undef.
  # ]
 
 =head1 EXAMPLE2
+
+=for comment filename=create_struct_and_print.pl
 
  use strict;
  use warnings;
